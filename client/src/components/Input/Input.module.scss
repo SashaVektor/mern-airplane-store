@@ -1,0 +1,25 @@
+.input{
+    padding: 10px;
+    background: linear-gradient(180deg, rgba(100,106,150, .4) 0%, rgba(182,186,214, .25) 100%);
+    border: .5px solid rgba(#fff, .3);
+    box-shadow: 0 20px 40px rgba(#000, .15);
+    border-radius: 30px;
+    outline: none;
+    color: #fff;
+    width: 100%;
+    &::placeholder{
+        color: rgba(#fff, .5);
+    }
+}
+.container{
+    margin: 20px 0;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.error{
+    color: #ffbab3;
+    font-size: 15px;
+}

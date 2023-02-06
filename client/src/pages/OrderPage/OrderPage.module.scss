@@ -1,0 +1,20 @@
+.order{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    margin-top: 50px;
+}
+.desc{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.img{
+    width: 600px;
+    height: 450px;
+    margin-top: 30px;
+}
